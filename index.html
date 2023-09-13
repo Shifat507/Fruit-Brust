@@ -10,9 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/838a2fecb0.js" crossorigin="anonymous"></script>
     <style>
         .font-style {
             font-family: 'Lato';
+        }
+
+        .meet-people-bg {
+            background-image: url('/images/team.png');
+            padding: 20px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+;
         }
     </style>
 </head>
@@ -119,9 +128,9 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="container mx-auto mt-1">
         <!-- Deal of the day -->
-        <section class="container mx-auto mt-1">
+        <section>
             <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div>
                     <h1 class="text-2xl font-black">Deal of the day</h1>
@@ -464,7 +473,80 @@
 
             </div>
         </section>
+
+        <!-- Team Section -->
+        <section class="mt-32">
+            <div class="meet-people-bg">
+                <div>
+                    <div class="text-center text-white py-5">
+                        <h1 class="text-5xl font-black">Meet the team section</h1>
+                        <p class="text-base">Contrary to popular belief, is not simply random text. It has roots in a
+                            piece
+                            of classical
+                            <br>
+                            Latin literature from 45 BC, making it over 2000 years old.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 justify-center py-5">
+                        <div class="flex justify-center">
+                            <div class="text-center">
+                                <img src="images/member1.png" alt="" class="lg:ps-3">
+                                <h3 class="text-white text-2xl font-extralight">Awlad Hossain</h3>
+                                <p class="text-gray-100">Fruits Expert</p>
+                                <div>
+                                    <i class="fa-brands fa-facebook text-white"></i>
+                                    <i class="fa-brands fa-twitter text-white"></i>
+                                    <i class="fa-brands fa-linkedin ttext-white"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="text-center">
+                                <img src="images/member2.png" alt="" class="lg:ps-3">
+                                <h3 class="text-white text-2xl font-extralight">Safia Chowdhury</h3>
+                                <p class="text-gray-100">Fruits Expert</p>
+                                <div>
+                                    <i class="fa-brands fa-facebook text-white"></i>
+                                    <i class="fa-brands fa-twitter text-white"></i>
+                                    <i class="fa-brands fa-linkedin text-white"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="text-center">
+                                <img src="images/member3.png" alt="" class="">
+                                <h3 class="text-white text-2xl font-extralight">Rokib Hossain</h3>
+                                <p class="text-gray-100">Fruits Expert</p>
+                                <div>
+                                    <i class="fa-brands fa-facebook text-white"></i>
+                                    <i class="fa-brands fa-twitter text-white"></i>
+                                    <i class="fa-brands fa-linkedin text-white"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="text-center">
+                                <img src="images/member4.png" alt="" class="">
+                                <h3 class="text-white text-2xl font-extralight">Chaity</h3>
+                                <p class="text-gray-100">Fruits Expert</p>
+                                <div>
+                                    <i class="fa-brands fa-facebook text-white"></i>
+                                    <i class="fa-brands fa-twitter text-white"></i>
+                                    <i class="fa-brands fa-linkedin text-white"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
     </main>
+
     <footer>
 
     </footer>
